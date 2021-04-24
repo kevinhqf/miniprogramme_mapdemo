@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="view">
+  <map id="map"  
+    scale="7"
+    latitude="{{latitude}}"
+    longitude="{{longitude}}"
+    polyline="{{polyline}}" 
+    markers="{{markers}}"
+    setting="{{setting}}" 
+   >
+  
+      <cover-view class="panel" >
+         <cover-view style="margin:10px 10px;">南京 -> 北京 的路线详情</cover-view>
+         <cover-view style="margin:10px 10px;">距离:{{distance}}米</cover-view>
+         <cover-view style="margin:10px 10px;"> 时间:{{time}}分钟</cover-view>
+      </cover-view>
+
+  
+  </map>
+  
+
+</view>
+

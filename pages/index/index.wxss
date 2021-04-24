@@ -1,0 +1,26 @@
+/**index.wxss**/
+page {
+  height: 100%;
+}
+
+.view {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.panel{
+  width: 100%;
+  height: 25%;
+  background-color: white;
+  justify-content: center;
+  bottom: 0px;
+  position: fixed;
+}
+
+map {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f7f7;
+}
